@@ -1,0 +1,28 @@
+Started by user [8mha:////4OOQFVQ7HBL/bc2MnIRczG9vWKQmfQtNbMRf2z/YkoolAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgYu/dLi1CL9zLLEPABFFN/evwAAAA==[0mIvan Ivanovich Ivanov
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Check_Holiday
+[Check_Holiday] $ /bin/bash /tmp/jenkins18148451773179931069.sh
+Today is Sun 30 Apr 2023 04:58:42 PM UTC and following holidays in BY
+Rates for current day
+{"meta":{"code":200},"response":{"holidays":[]}}{
+  "Cur_ID": 431,
+  "Date": "2023-04-30T00:00:00",
+  "Cur_Abbreviation": "USD",
+  "Cur_Scale": 1,
+  "Cur_Name": "Доллар США",
+  "Cur_OfficialRate": 2.9255
+}
+{
+  "Cur_ID": 456,
+  "Date": "2023-04-30T00:00:00",
+  "Cur_Abbreviation": "RUB",
+  "Cur_Scale": 100,
+  "Cur_Name": "Российских рублей",
+  "Cur_OfficialRate": 3.5971
+}
+[Slack Notifications] found #18 as previous completed, non-aborted build
+[Slack Notifications] will send OnSuccessNotification because build matches and user preferences allow it
+Using dirname=/var/lib/jenkins/workspace/Check_Holiday and includeMask=
+Adding file /var/lib/jenkins/workspace/Check_Holiday/result.log
+Slack upload may have failed. Response: {"ok":false,"error":"invalid_auth"}
+Finished: SUCCESS

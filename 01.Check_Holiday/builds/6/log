@@ -1,0 +1,9 @@
+Started by user [8mha:////4OOQFVQ7HBL/bc2MnIRczG9vWKQmfQtNbMRf2z/YkoolAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgYu/dLi1CL9zLLEPABFFN/evwAAAA==[0mIvan Ivanovich Ivanov
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Check_Holiday
+[Check_Holiday] $ /bin/bash /tmp/jenkins9869408030871604417.sh
+Today is Fri 28 Apr 2023 07:52:52 PM UTC and following holidays in BY
+{"meta":{"code":200},"response":{"holidays":[]}}
+parse error: Invalid numeric literal at line 1, column 6
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

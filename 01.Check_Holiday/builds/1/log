@@ -1,0 +1,17 @@
+Started by user [8mha:////4OOQFVQ7HBL/bc2MnIRczG9vWKQmfQtNbMRf2z/YkoolAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgYu/dLi1CL9zLLEPABFFN/evwAAAA==[0mIvan Ivanovich Ivanov
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Check_Holiday
+[Check_Holiday] $ /bin/sh -xe /tmp/jenkins17067162319945810948.sh
++ date +&year=%Y&month=%m&day=%d
++ now=&year=2023&month=04&day=28
++ date
++ echo Today is Fri 28 Apr 2023 06:41:31 PM UTC and following holidays in BY
+Today is Fri 28 Apr 2023 06:41:31 PM UTC and following holidays in BY
++ curl -s https://holidays.abstractapi.com/v1/?api_key=HIDDENMYAPIKEY&country=BY&year=2023&month=04&day=28
+{"error":{"message":"Invalid API key provided.","code":"unauthorized","details":null}}+ echo
+
++ jq
++ echo Today are the following exchange rates in BY curl -s https://www.nbrb.by/api/exrates/rates?periodicity=0
+parse error: Invalid numeric literal at line 1, column 6
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

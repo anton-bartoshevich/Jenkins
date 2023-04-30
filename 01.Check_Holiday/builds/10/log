@@ -1,0 +1,12 @@
+Started by user [8mha:////4OOQFVQ7HBL/bc2MnIRczG9vWKQmfQtNbMRf2z/YkoolAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgYu/dLi1CL9zLLEPABFFN/evwAAAA==[0mIvan Ivanovich Ivanov
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Check_Holiday
+[Check_Holiday] $ /bin/bash /tmp/jenkins16394792208220510813.sh
+Today is Fri 28 Apr 2023 08:38:28 PM UTC and following holidays in BY
+Rates for current day
+[Slack Notifications] found #9 as previous completed, non-aborted build
+[Slack Notifications] will send OnSuccessNotification because build matches and user preferences allow it
+Using dirname=/var/lib/jenkins/workspace/Check_Holiday and includeMask=
+Adding file /var/lib/jenkins/workspace/Check_Holiday/result.log
+Slack upload may have failed. Response: {"ok":false,"error":"invalid_auth"}
+Finished: SUCCESS

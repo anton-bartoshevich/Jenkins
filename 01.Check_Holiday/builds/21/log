@@ -1,0 +1,26 @@
+Started by user [8mha:////4OOQFVQ7HBL/bc2MnIRczG9vWKQmfQtNbMRf2z/YkoolAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgYu/dLi1CL9zLLEPABFFN/evwAAAA==[0mIvan Ivanovich Ivanov
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Check_Holiday
+[Check_Holiday] $ /bin/bash /tmp/jenkins6973376821699438754.sh
+Today is Sun 30 Apr 2023 05:08:41 PM UTC and following holidays in BY and current rates for today
+{"meta":{"code":404,"error_type":"call failed","error_detail":"Missing required call parameters. See https:\/\/calendarific.com\/ for details."},"response":[]}{
+  "Cur_ID": 431,
+  "Date": "2023-04-30T00:00:00",
+  "Cur_Abbreviation": "USD",
+  "Cur_Scale": 1,
+  "Cur_Name": "Доллар США",
+  "Cur_OfficialRate": 2.9255
+}
+{
+  "Cur_ID": 456,
+  "Date": "2023-04-30T00:00:00",
+  "Cur_Abbreviation": "RUB",
+  "Cur_Scale": 100,
+  "Cur_Name": "Российских рублей",
+  "Cur_OfficialRate": 3.5971
+}
+[Slack Notifications] found #20 as previous completed, non-aborted build
+[Slack Notifications] will send OnSuccessNotification because build matches and user preferences allow it
+Using dirname=/var/lib/jenkins/workspace/Check_Holiday and includeMask=/var/lib/jenkins/workspace/Check_Holiday/result.log
+No files found for mask=/var/lib/jenkins/workspace/Check_Holiday
+Finished: SUCCESS
